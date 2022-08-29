@@ -1,0 +1,13 @@
+{
+   "pack": {
+      "pack_format": 9,
+      "description": "Experience Dirt in an even newer light!"
+   },
+   "language": {
+      "en_dd": {
+         "name": ".o0 Dire Dirt 0o.",
+         "region": "A Distant Land",
+         "bidirectional": false
+      }
+   }
+}
