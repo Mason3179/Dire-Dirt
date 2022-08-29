@@ -1,0 +1,91 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "brewing_stand_lever": "minecraft:block/brewing_stand_lever",
+        "soda": "minecraft:block/soda"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Lever2",
+            "from": [ 12.5, 5, 9.5 ], 
+            "to": [ 13.5, 9, 10.5 ], 
+            "faces": {
+                "north": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 4 ] },
+                "east": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 4 ] },
+                "south": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 4 ] },
+                "west": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 4 ] },
+                "up": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 1 ] }
+            }
+        },
+        {
+            "name": "LeverB2",
+            "from": [ 12.5, 4, 10.5 ], 
+            "to": [ 13.5, 5, 11.5 ], 
+            "faces": {
+                "north": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 1 ] },
+                "east": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#brewing_stand_lever", "uv": [ 0, 0, 1, 1 ] }
+            }
+        },
+        {
+            "name": "Soda2",
+            "from": [ 11.5, 3, 11.5 ], 
+            "to": [ 14.5, 7, 12.5 ], 
+            "faces": {
+                "north": { "texture": "#soda", "uv": [ 5, 10, 8, 14 ] },
+                "east": { "texture": "#soda", "uv": [ 7, 10, 8, 14 ] },
+                "south": { "texture": "#soda", "uv": [ 5, 10, 8, 14 ] },
+                "west": { "texture": "#soda", "uv": [ 5, 10, 6, 14 ] },
+                "up": { "texture": "#soda", "uv": [ 5, 10, 8, 11 ] },
+                "down": { "texture": "#soda", "uv": [ 5, 13, 8, 14 ] }
+            }
+        },
+        {
+            "name": "SodaB2",
+            "from": [ 12.5, 2, 11.5 ], 
+            "to": [ 13.5, 3, 12.5 ], 
+            "faces": {
+                "north": { "texture": "#soda", "uv": [ 6, 14, 7, 15 ] },
+                "east": { "texture": "#soda", "uv": [ 6, 14, 7, 15 ] },
+                "south": { "texture": "#soda", "uv": [ 6, 14, 7, 15 ] },
+                "west": { "texture": "#soda", "uv": [ 6, 14, 7, 15 ] },
+                "down": { "texture": "#soda", "uv": [ 6, 14, 7, 15 ] }
+            }
+        }
+    ]
+}
